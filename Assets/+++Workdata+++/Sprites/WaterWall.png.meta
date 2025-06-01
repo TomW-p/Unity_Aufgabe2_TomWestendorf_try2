@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 170
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,6 +96,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -104,195 +117,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 171
-        width: 85
-        height: 85
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 28d88279808a9c14598c9f068521f60b
-      internalID: 1298695467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaterWall_1
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 171
-        width: 85
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b792fa6aa59427a479863dada658d470
-      internalID: -1104849324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaterWall_2
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 171
-        width: 85
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe238858729cd754bad75aff53b77f35
-      internalID: 1326304038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaterWall_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 86
-        width: 85
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e96bbf42bf2772428e1787eb23e4ad1
-      internalID: -1531785156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaterWall_4
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 86
-        width: 85
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f55cc05e6f715794a9861975eb80afe6
-      internalID: -894747647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaterWall_5
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 86
-        width: 85
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8ba2e2f0fd9a6f4c831e5e9eaec5812
-      internalID: 299235933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaterWall_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1
-        width: 85
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85d600b1e4d04eb459a53b9fb7694460
-      internalID: 790656468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaterWall_7
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 1
-        width: 85
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 478b74a9817de85428822b005e10e199
-      internalID: 418925331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WaterWall_8
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 1
-        width: 85
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1822ab4785cc8be488e78f5b40b108e1
-      internalID: -797999615
+      spriteID: 728b90f2ecb0cb490800000000000000
+      internalID: -7729289880294279129
       vertices: []
       indices: 
       edges: []
@@ -301,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 192dcd2cb3afa674b876529326bbce11
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -311,15 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WaterWall_0: 1298695467
-      WaterWall_1: -1104849324
-      WaterWall_2: 1326304038
-      WaterWall_3: -1531785156
-      WaterWall_4: -894747647
-      WaterWall_5: 299235933
-      WaterWall_6: 790656468
-      WaterWall_7: 418925331
-      WaterWall_8: -797999615
+      WaterWall_0: -7729289880294279129
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
